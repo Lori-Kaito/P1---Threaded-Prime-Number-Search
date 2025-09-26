@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Variant 1",
+            "type": "shell",
+            "command": "g++",
+            "args": ["variant1/main.cpp", "-o", "variant1/variant1.exe"]
+        },
+        {
+            "label": "Build Variant 2",
+            "type": "shell",
+            "command": "g++",
+            "args": ["variant2/main.cpp", "-o", "variant2/variant2.exe"]
+        },
+        {
+            "label": "Build Variant 3",
+            "type": "shell",
+            "command": "g++",
+            "args": ["variant3/main.cpp", "-o", "variant3/variant3.exe"]
+        },
+        {
+            "label": "Build Variant 4",
+            "type": "shell",
+            "command": "g++",
+            "args": ["variant4/main.cpp", "-o", "variant4/variant4.exe"]
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Variant 1",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/variant1/variant1.exe",
+            "cwd": "${workspaceFolder}/variant1",
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/msys64/mingw64/bin/gdb.exe",
+            "preLaunchTask": "Build Variant 1"
+        },
+        {
+            "name": "Run Variant 2",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/variant2/variant2.exe",
+            "cwd": "${workspaceFolder}/variant2",
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/msys64/mingw64/bin/gdb.exe",
+            "preLaunchTask": "Build Variant 2"
+        },
+        {
+            "name": "Run Variant 3",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/variant3/variant3.exe",
+            "cwd": "${workspaceFolder}/variant3",
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/msys64/mingw64/bin/gdb.exe",
+            "preLaunchTask": "Build Variant 3"
+        },
+        {
+            "name": "Run Variant 4",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/variant4/variant4.exe",
+            "cwd": "${workspaceFolder}/variant4",
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/msys64/mingw64/bin/gdb.exe",
+            "preLaunchTask": "Build Variant 4"
+        }
+    ]
+}
